@@ -5,14 +5,22 @@
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 58px;
   font-family: 'Delicious Handrawn', cursive;
   background-color: azure;
+  border-radius: 2px;
+  padding: 10px;
 }
 
-h2 {
+p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h3 {
   color: rgb(15, 15, 68);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-size: 38px;
 }
 
 .container {
@@ -22,11 +30,13 @@ h2 {
 
 body {
   background-color: rgb(157, 226, 226);
+  font-family: 'Oswald', sans-serif;
 }
 
 .link {
   text-decoration: none;
   background-color: aqua;
+  box-shadow: 10px 5px 10px black;
 }
 
 .link:hover {
