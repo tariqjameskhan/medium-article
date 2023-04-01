@@ -1,0 +1,59 @@
+.banner {
+  background-image: url(https://unsplash.com/photos/ceITO2rlDgc);
+  color: black;
+  padding: 120px 0;
+}
+
+h1 {
+  font-size: 38px;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+h2 {
+  color: rgb(15, 15, 68);
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+body {
+  background-color: rgb(157, 226, 226);
+}
+
+.link {
+  text-decoration: none;
+  background-color: aqua;
+}
+
+.link:hover {
+  background-color: blueviolet;
+}
+
+/* Media queries */
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
