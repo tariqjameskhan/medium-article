@@ -12,6 +12,12 @@ h1 {
   padding: 10px;
 }
 
+#sub-header {
+  font-size: 28px;
+  color: aliceblue;
+  font-weight: 600;
+}
+
 p {
   font-size: 18px;
   font-weight: 600;
