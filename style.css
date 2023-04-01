@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(https://unsplash.com/photos/ceITO2rlDgc);
+  background-image: url("https://source.unsplash.com/random/1000x500");
   color: black;
   padding: 120px 0;
 }
@@ -7,6 +7,7 @@
 h1 {
   font-size: 38px;
   font-family: 'Delicious Handrawn', cursive;
+  background-color: azure;
 }
 
 h2 {
